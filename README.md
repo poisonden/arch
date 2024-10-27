@@ -92,7 +92,7 @@ WSL1 users **should** always follow the steps in [Known issues](https://wsldl
 WSL does not have support for systemd however, there are several solutions. Please see [Known issues](https://wsldl-pg.github.io/ArchW-docs/Known-issues/#systemdsystemctl).
 
 
-### []NeoVim / LunarVim
+### NeoVim / LunarVim
 
 ```
 sudo pacman -S neovim
@@ -114,7 +114,7 @@ https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/insta
 
 [WARN] the folder /home/anonymous/.local/bin is not on PATH, consider adding 'export PATH=/home/anonymous/.local/bin:$PATH' to your /home/anonymous/.zshenv
 
-### [] YAY
+### YAY
 
 ```shell
 pacman -S --needed git base-devel
@@ -124,7 +124,7 @@ makepkg -si
 ```
 
 
-### [] ZSH
+### ZSH
 
 ```
 yay -S zsh
@@ -137,7 +137,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosugges
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 ```
 
-### [] asdf-vm
+### asdf-vm
 
 ```
 yay -S asdf-vm
